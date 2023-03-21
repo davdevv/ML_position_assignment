@@ -1,13 +1,18 @@
 import argparse
 
 def multiplicate(A: list[int]) -> list[int]:
+
     n = len(A)
+    assert n != 1, 'Длина массива должна быть > 1'
+
     num_of_zeros = 0
     for elem in A:
         if elem == 0:
             num_of_zeros += 1
+
     if num_of_zeros > 1:
         return [0] * n
+
     elif num_of_zeros == 1:
         prod = 1
         for i, elem in enumerate(A):
@@ -18,6 +23,7 @@ def multiplicate(A: list[int]) -> list[int]:
                 k = i
         A[k] = prod
         return A
+
     else:
         prod = 1
         for elem in A:
@@ -27,15 +33,14 @@ def multiplicate(A: list[int]) -> list[int]:
         return A
 
 
-
-
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--integers', type=int, nargs='+',
-                        help='list of integers')
+    parser.add_argument('--integers', type=int, default=[3, 2],
+                        nargs='+', help='list of integers')
     args = parser.parse_args()
     print(multiplicate(args.integers))
 
 #Временная сложность в худшем случае O(n)
 #Пространственная сложность в худшем случае O(n)
+
 
