@@ -21,6 +21,5 @@
 ## Запуск в терминале
 ```
 python alg.py --integers 1 2 3 4
-
 ```
 # Task-2
