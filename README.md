@@ -49,19 +49,18 @@ MSE, PSNR, SSIM
 Параметры модели использованные мною при обучении:
 ```
 kernel_size = 3
-
+```
 num_channels = 1
-
+```
 growth_rate = 10
-
+```
 num_features = 14
-
+```
 num_blocks = 10
-
+```
 num_layers = 4
-
+```
 pretrained = True
-
 ```
 
 
