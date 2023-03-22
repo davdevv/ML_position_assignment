@@ -42,6 +42,12 @@ Denoising: необходимо реализовать алгоритм, поз�
 
 MSE, PSNR, SSIM
 
+##Модель и ее параметры
+
+Residual Dense Network for Image Super-Resolution
+
+https://arxiv.org/abs/1802.08797
+
 
 
 
