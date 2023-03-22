@@ -44,7 +44,7 @@ MSE, PSNR, SSIM
 
 ## Модель и ее параметры
 
-В качестве Residual Dense Network for Image Super-Resolution https://arxiv.org/abs/1802.08797 
+Решил использовать модель Residual Dense Network for Image Super-Resolution https://arxiv.org/abs/1802.08797 
 
 Параметры модели использованные мною при обучении:
 
