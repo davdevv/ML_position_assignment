@@ -47,21 +47,21 @@ MSE, PSNR, SSIM
 В качестве Residual Dense Network for Image Super-Resolution https://arxiv.org/abs/1802.08797 
 
 Параметры модели использованные мною при обучении:
-```
-kernel_size = 3
-```
-num_channels = 1
-```
+
+* kernel_size = 3
+
+* num_channels = 1
+
 growth_rate = 10
-```
+
 num_features = 14
-```
+
 num_blocks = 10
-```
+
 num_layers = 4
-```
+
 pretrained = True
-```
+
 
 
 
