@@ -54,11 +54,11 @@ MSE, PSNR, SSIM
 
 * **growth_rate = 10**
 
-* **num_features = 14**
+* **num_features = 12**
 
-* **num_blocks = 10**
+* **num_blocks = 7**
 
-* **num_layers = 4**
+* **num_layers = 6**
 
 * **pretrained = True**
 
