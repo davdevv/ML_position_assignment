@@ -76,8 +76,6 @@ python train.py --train_dataset path to train dataset\
                 --num_features 12\
                 --num_blocks 7\
                 --num_layers 6
-
-
 ```
 
 
