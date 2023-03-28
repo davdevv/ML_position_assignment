@@ -101,5 +101,5 @@ python train.py --train_dataset path to train dataset\
 
 ## Предобученная модель 
 
-[Модель на диске]([https://www.google.com](https://drive.google.com/file/d/1AHZ8soHuE7WalZJ1U1gWuYUFrFoXWV31/view?usp=share_link))
+[Модель на диске]([https://drive.google.com/file/d/1AHZ8soHuE7WalZJ1U1gWuYUFrFoXWV31/view?usp=share_link])
 
