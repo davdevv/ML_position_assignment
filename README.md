@@ -62,7 +62,7 @@ MSE, PSNR, SSIM
 
 * **pretrained = True**
 
-## Запуск train в терминале
+## Запуск train.py в терминале
 ```
 python train.py --train_dataset path to train dataset\
                 --val_datset path to val dataset\
@@ -77,7 +77,11 @@ python train.py --train_dataset path to train dataset\
                 --num_blocks 7\
                 --num_layers 6
 ```
+## Inference 
 
+`inference.ipynb` в папке `notebooks`
+
+## Результаты
 
 
 
