@@ -99,3 +99,7 @@ python train.py --train_dataset path to train dataset\
 
 ![bad_sample](https://user-images.githubusercontent.com/118741179/228126167-fdd65cbf-6897-4034-b519-3690eb263d60.png)
 
+## Предобученная модель 
+
+[Модель на диске]([https://www.google.com](https://drive.google.com/file/d/1AHZ8soHuE7WalZJ1U1gWuYUFrFoXWV31/view?usp=share_link))
+
