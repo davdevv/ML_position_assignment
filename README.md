@@ -62,6 +62,23 @@ MSE, PSNR, SSIM
 
 * **pretrained = True**
 
+## Запуск train в терминале
+```
+python train.py --train_dataset path to train dataset\
+                --val_datset path to val dataset\
+                --pretrained path to pretrained chpt\
+                --epochs 20\
+                -lr 1e-3\
+                --batch_size 2\
+                --kernel_size 3\
+                --num_channels 1\
+                --growth_rate 10\
+                --num_features 12\
+                --num_blocks 7\
+                --num_layers 6
+
+
+```
 
 
 
